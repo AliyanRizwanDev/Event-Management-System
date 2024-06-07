@@ -1,0 +1,40 @@
+.dashboard {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.eventList,
+.notificationList {
+  list-style: none;
+  padding: 0;
+}
+
+.eventItem,
+.notificationItem {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.quickLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.quickLink {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #bd2a2a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quickLink:hover {
+  background-color: #f10707;
+}

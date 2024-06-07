@@ -1,0 +1,46 @@
+.exploreEvents {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.searchBar,
+.filterInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.eventListings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eventItem {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.bookButton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #bd2a2a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+
+.bookButton:hover {
+  background-color: #f10707;
+}

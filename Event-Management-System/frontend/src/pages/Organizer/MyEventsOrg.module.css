@@ -1,0 +1,51 @@
+.myEvents {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.eventList {
+  list-style: none;
+  padding: 0;
+}
+
+.eventItem {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.eventInfo {
+  padding: 15px;
+}
+
+.eventInfo h2 {
+  margin-top: 0;
+}
+
+.cancelButton {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: #cc0000;
+}
+
+.editButton {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.editButton:hover {
+  background-color: #cc0000;
+}

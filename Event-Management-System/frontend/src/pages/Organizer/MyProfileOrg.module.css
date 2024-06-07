@@ -1,0 +1,43 @@
+.myProfile {
+  padding: 20px;
+}
+
+.profileSection {
+  margin-bottom: 20px;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profilePicture {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.fileInput {
+  display: block;
+}
+
+.saveButton {
+  padding: 10px 15px;
+  background-color: #bd2a2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #f10707;
+}
